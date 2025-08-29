@@ -1,14 +1,12 @@
 def check_vowels():
     nombre = input("> ").lower()
-    vocalA = f"Contiene a: {"a" in nombre}"
-    vocalE = f"Contiene e: {"e" in nombre}"
-    vocalI = f"Contiene i: {"i" in nombre}"
-    vocalO = f"Contiene o: {"o" in nombre}"
-    vocalU = f"Contiene u: {"u" in nombre}"
-    print(vocalA)
-    print(vocalE)
-    print(vocalI)
-    print(vocalO)
-    print(vocalU)
-
-print(check_vowels())
+    vocalA = "a" in nombre
+    vocalE = "e" in nombre
+    vocalI = "i" in nombre
+    vocalO = "o" in nombre
+    vocalU = "u" in nombre
+    print(f"Contiene a: {vocalA}")
+    print(f"Contiene e: {vocalE}")
+    print(f"Contiene i: {vocalI}")
+    print(f"Contiene o: {vocalO}")
+    print(f"Contiene u: {vocalU}")
