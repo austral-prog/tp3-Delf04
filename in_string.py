@@ -10,3 +10,5 @@ def check_vowels():
     print(vocalI)
     print(vocalO)
     print(vocalU)
+
+print(check_vowels())
